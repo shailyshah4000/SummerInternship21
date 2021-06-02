@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            background-color: black;
+            color:white;
+            height:15vh;
+            width: 130vw;
+            padding:15px;
+            position:sticky;
+            top:0;
+            z-index: 1;
+            font-size: 10vh;;
+        }
+        li{
+            display:inline;
+        }
+        .container{
+            background-color: blueviolet;
+            height:200vh;
+            width:125vh;
+            margin:auto;
+            z-index: 0;      
+
+            
+        }
+        .box
+        {
+            background-color: chartreuse;
+            height:15vh;
+            width:30vh;
+            position:relative;
+            left:50px;
+            top:25px;
+
+        }
+        .pera{
+            text-align: center;
+            border:2px solid red;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>HOME</li>
+                <li>ABOUT</li>
+                <li>CONTACT</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <p class="pera">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ipsam dolores eum dolore reiciendis aspernatur!
+        </p>
+        <div class="box">
+            i am a box
+        </div>
+    </div>
+</body>
+</html>
