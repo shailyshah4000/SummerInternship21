@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 58px;
+    background-color: black;
+}
+footer{
+    background-color: black;
+    color:white;
+    height:12vh;
+    font-family: 'Permanent Marker', cursive;
+}
