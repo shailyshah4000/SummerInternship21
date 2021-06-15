@@ -1,0 +1,210 @@
+ <!--regular expresion!-->
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic</title>
+    <script src="prectice.js">
+
+    </script>
+</head>
+<body>
+    <form action="redirect.html">
+        <input type="text" placeholder="ener userName" id="uname" />
+        <lable id="lusr1" style="color:red; visibility:hidden;">InValid</lable>
+        <br>
+        <button type="button" onclick="validate()">submit</button>
+    </form>
+</body>
+</html>
+
+
+ <!--form validation
+    DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic</title>
+    <script src="prectice.js">
+
+    </script>
+</head>
+<body>
+    <form onsubmit="return validate()" action="redirect.html">
+        <input type="text" placeholder="enter name" id="uname" />
+        <lable id="lusr1" style="color:red;visibility:hidden;">invalid</lable>
+        <br>
+        <input type="password" placeholder="password" id="pass" />
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
+!-->
+
+<!--DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic</title>
+    <script>
+        function setNewImage()
+        {
+            document.getElementById("img1").src="./img1.png";
+        }
+        function setOldImage()
+        {
+            document.getElementById("img1").src="./img2.png";
+        }
+    </script>
+</head>
+<body>
+    <img id="img1" onmouseover="setNewImage()" onmouseout="setOldImage()" src="./img2.png" width="300" />
+</body>
+</html>!-->
+
+<!--Element By Class Name
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic</title>
+    <script>
+        function changestyle(){
+            var tag=document.getElementsByClassName("mypera");
+            for(var i=0;i<tag.length;i++)
+            {
+                tag[i].style.color="red";
+                tag[i].style.background="black";
+            }
+        }
+    </script>
+</head>
+<body>
+    <p class="mypera">this is pera1</p>
+    <p>this is pera2</p>
+    <p class="mypera">this is pera3</p>
+    <p>this is pera4</p>
+    <a href="#" class="mypera">this is anchor tag</a>
+    <br>
+    <button onclick="changestyle()">Click Me</button>
+</body>
+</html>!-->
+
+<!-- Element By Tag Name
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>basic</title>
+    <script src="prectice.js">
+
+    </script>
+</head>
+<body>
+    <p>this is pera1</p>
+    <p>this is pera2</p>
+    <p>this is pera3</p>
+    <p>this is pera4</p>
+    <br>
+    <button onclick="changestyle()">Click Me</button>
+</body>
+</html>!-->
+
+<!-- selectBox
+    
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic</title>
+    <script src="prectice.js">
+
+    </script>
+</head>
+<body>
+    <select id="selectbox">
+        <option value="good morning">good morning</option>
+        <option value="good afternoon">good afternoon</option>
+        <option value="good night">good night</option>
+    </select>
+    <button onclick="fn3()">Click Me</button>
+</body>
+</html>!-->
+
+<!--  radio button
+    
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic</title>
+    <script src="prectice.js">
+        
+
+    </script>
+</head>
+<body>
+    <input type="radio" name="grp1" id="rd1" value="mobile">mobile</input>
+    <br>
+    <input type="radio" name="grp1" id="rd2" value="car">car</input>
+    <br>
+    <button onclick="fn2()">Click Me</button>
+</body>
+</html>!-->
+
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic</title>
+    <script src="prectice.js">
+        
+    </script>
+</head>
+<body>
+    <button onclick="dom()">Click Me</button>
+    <h2 id="heading">hey,good morning</h2>
+</body>
+</body>
+</html>
+
+
+ for textbox click 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic</title>
+    <script src="prectice.js">
+        
+    </script>
+</head>
+<body>
+    <input type="text" id="text1" placeholder="enter anything" >
+    <br>
+    <button onclick="fun1()">Click Me</button>
+</body>
+</html>!-->
+
+
