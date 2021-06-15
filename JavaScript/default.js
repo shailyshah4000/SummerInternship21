@@ -172,6 +172,121 @@
        
    }
 
+/*
+   //select box
+
+   function fn3()
+   {
+       var select=document.getElementById("selectbox");
+       alert(select.options[select.selectedIndex].value);
+   }*/
+
+
+/*
+   //tagname
+
+   function changestyle()
+   {
+       var pera=document.getElementsByTagName("p");
+       pera[0].style.color="red" ;
+       pera[1].style.color="pink";
+       pera[2].style.fontWeight="bold";
+       pera[3].style.fontStyle="italic";
+   }
+
+ */
+
+   //form validation
+
+   /*function validate()
+       {
+            var userName=document.getElementById("uname");
+            var password=document.getElementById("pass");
+            if(userName.value.trim()=="" || password.value.trim()=="") 
+            {
+                alert("no blank value!")
+                return false;
+            }
+            else
+            {
+                    true;
+            }
+       }*/
+
+       /*
+       function validate()
+       {
+           var username=document.getElementById("uname");
+           var password=document.getElementById("pass");
+
+           if(username.value.trim()=="")
+           {
+               //alert("no blank allowed");
+                username.style.border ="solid 2px red";
+                document.getElementById("lusr1").style.visibility="visible";
+               return false;
+           }
+           else if(password.value.trim()=="")
+           {
+               alert("no blank allowed");
+               return false;
+           }
+           else if(password.value.trim().length<5)
+           {
+               alert("too short");
+               return false;
+           }
+           else
+           {
+                true;
+           }
+       }*/
+
+    //regular express
+
+    function validate()
+    {
+        var unamee=document.getElementById("uname").value;
+       // var regx = /202012/ ;
+       var regx=/[0-5]a[8-9]bc/;
+        if(regx.test(unamee))
+        {
+            alert("valid username");
+        }
+        else
+        {
+            alert("invalid");
+            document.getElementById("lusr1").style.visibility="visible";
+        }
+    }
+
+    /*
+        \d= match any digit (equal to [0-9])
+        \w= match any words characters (a-z,A-Z,0-9 &_)
+        \s= match whitespace characters (eg-spacce & tabs)
+        \t =match a tab only.
+    */
+
+
+        function validate()
+        {
+            var uname=document.getElementById("uname").value;
+            //var regx=/^[7-9]\d{9}$/;
+            var regx=/^([a-zA-z0-9\.-]+)@([a-zA-z0-9-]+).([a-z]{2,20})$/;
+            if(regx.test(uname))
+            {
+                document.getElementById("lusr1").innerHTML="valid";
+                document.getElementById("lusr1").style.visibility="visible";
+                document.getElementById("lusr1").style.color="green";
+            }
+            else
+            {
+                document.getElementById("lusr1").innerHTML="Invalid";
+                document.getElementById("lusr1").style.visibility="visible";
+                document.getElementById("lusr1").style.color="red";
+            }
+        }
+
 
    
         
