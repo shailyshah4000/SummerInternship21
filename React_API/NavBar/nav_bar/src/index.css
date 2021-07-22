@@ -1,0 +1,33 @@
+body{
+    background-color: lightslategray;
+}
+
+.active_class{
+
+    color:red;
+    border-bottom: 2px solid black;
+   
+}
+
+.about{
+    color:midnightblue;
+}   
+
+.contact{
+    color:midnightblue;
+
+}
+
+.Service{
+    color:midnightblue;
+
+}
+.menu
+{
+    width:100%;
+    line-height: 60px;
+    background-color:#20232a;
+    display: flex;
+    justify-content: space-around;
+}
+
