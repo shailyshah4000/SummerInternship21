@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href='https://unpkg.com/boxicons@2.0.8/css/boxicons.min.css' rel='stylesheet'>
+
+
+
+    <!-- logo font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+
+    <title>ProductDetails - VasuVraj</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <h1 style="font-family:'STIX Two Math', serif;color:rgb(58, 102, 117)">
+                    VASUVRAJ
+                </h1>
+
+            </div>
+            <nav>
+                <ul id="menuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Product</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="login.html">Account</a></li>
+                </ul>
+            </nav>
+            <img src="./Images/cart5.png" width="30px" height="30px">
+            <img src="Images/menu1.png" class="menu_icon" onclick="menutoggle()">
+        </div>
+    </div>
+
+    <!-- Single Poduct Detail-->
+
+    <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2">
+                <img src="Images/1.jpg" width="70%" id="productImg" >
+
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="Images/2.jpg" width="100%" class="smallImg">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="Images/1.jpg" width="100%" class="smallImg">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="Images/3.jpg" width="100%" class="smallImg">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="Images/4.jpg" width="100%" class="smallImg">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-2">
+                <p>Home/Hamper</p>
+                <h1>Gift Hamper</h1>
+                <h4>$840.00</h4>
+                <select >
+                    <option>Select Size</option>
+                    <option>small</option>
+                    <option>medium</option>
+                    <option>semi-small</option>
+                    <option>large</option>
+                    <option>semi-medium</option>
+                </select>
+                <input type="number" value="1">
+                <a href="/cart.html" class="btn">Add To Cart</a>
+                <h3>Product Details <i class="bx bx-right-indent" ></i></h3>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+                     Magni natus debitis libero, voluptates sunt rerum?
+                     Magni natus debitis libero, voluptates sunt rerum?
+                    </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Title-->
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>Related Products</h2>
+            <p>view more</p>
+        </div>
+    </div>
+
+
+    <!-- Product -->
+    <div class="small_container">
+        <div class="row">
+            <div class="col-4">
+                <img src="./Images/hamper1.jpg">
+                <h4>Rakhi Exclusive</h4>
+                <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bx-star"></i>
+                </div>
+                <p>$85.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="./Images/hamper4.jpg">
+                <h4>Rakhi Exclusive</h4>
+                <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bx-star"></i>
+                </div>
+                <p>$85.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="./Images/hamper6.jpg">
+                <h4>Rakhi Exclusive</h4>
+                <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                </div>
+                <p>$85.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="./Images/hamper8.jpg">
+                <h4>Rakhi Exclusive</h4>
+                <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bx-star"></i>
+                </div>
+                <p>$85.00</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer-->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for android and ios mobile phone.</p>
+                     <div class="app-logo">
+                         <img src="Images/play_store.png">
+                         <img src="Images/app_store.png">
+                     </div>
+                </div>
+                <div class="footer-col-2">
+                    <h1  style="font-family:'STIX Two Math', serif;color:rgb(58, 102, 117)">VASUVRAJ</h1> 
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                         Quia, aliquam ex autem minus velit optio.
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follw Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2021 - VasuVraj</p>
+        </div>
+    </div>
+    
+    <!-- Js for ToggleMenu.-->
+
+    <script>
+        var menuItems = document.getElementById('menuItems');
+        menuItems.style.maxHeight = "0px";
+        function menutoggle() {
+            if (menuItems.style.maxHeight == "0px") {
+                menuItems.style.maxHeight = "200px";
+            }
+            else {
+                menuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+    <!--  Small Images-->
+    
+    <script>
+        var productImg=document.getElementById("productImg");
+        var smallImg=document.getElementsByClassName("smallImg");
+
+        smallImg[0].onclick=function(){
+                productImg.src=smallImg[0].src;
+        }
+        smallImg[1].onclick=function(){
+                productImg.src=smallImg[1].src;
+        }
+        smallImg[2].onclick=function(){
+                productImg.src=smallImg[2].src;
+        }
+        smallImg[3].onclick=function(){
+                productImg.src=smallImg[3].src;
+        }
+    </script>
+
+</body>
+
+</html>
