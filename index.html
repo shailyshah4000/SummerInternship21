@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href='https://unpkg.com/boxicons@2.0.8/css/boxicons.min.css' rel='stylesheet'>
+
+
+
+    <!-- logo font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+
+    <title>VasuVraj</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><h1 style="font-family:'STIX Two Math', serif;color:#191970">
+                    VASUVRAJ
+                </h1></a>
+                
+            </div>
+            <nav>
+                <ul id="menuItems">
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/product.html">Product</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="login.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="./Images/cart5.png" width="30px" height="30px"></a>
+            <img src="Images/menu1.png" class="menu_icon" onclick="menutoggle()">
+        </div>
+
+        <div class="row">
+            <div class="col-2">
+                <h1>Craft makes our  <br> homes more human. </h1>
+                <p>Art is not a handicraft, it is the transmission of feeling the artist has experienced.</p>
+                <a href="" class="btn">Explore Now &#8594;</a>
+            </div>
+            <div class="col-2">
+                    <img src="./Images/art1.jpg">
+            </div>
+        </div>
+     </div>
+</div>
+
+    <!-- Featured categories-->
+
+    <div class="catagories"></div>
+        <div class="small_container">
+            <div class="row">
+                <div class="col-3">
+                   <img src="Images/cat1.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="Images/cat2.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="Images/cat3.jpg">
+                </div>
+            </div>
+        
+        </div>
+    </div>
+
+    <!-- Featured Prosuct-->
+
+    <div class="small_container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+               <a href="productDetail.html"> <img src="./Images/1.jpg"></a>
+                <a href="productDetail.html"><h4>Rakhi Exclusive</h4></a>
+                <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                     <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bx-star"></i>
+                </div>
+                <p>$85.00</p>
+            </div>
+
+            <div class="col-4">
+                <a href="productDetail.html"><img src="./Images/hamper3.jpg"></a>
+                <h4>Handmade Hamper</h4>
+                <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bx-star"></i>
+                </div>
+                <p>$85.00</p>
+            </div>
+
+            <div class="col-4">
+                <a href="productDetail.html"><img src="./Images/hamper2.jpg"></a>
+                <h4>Handmade Hamper</h4>
+                <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                </div>
+                <p>$85.00</p>
+            </div>
+
+            <div class="col-4">
+                <a href="productDetail.html"><img src="./Images/hamper5.jpg"></a>
+                <h4>Handmade Soap</h4>
+                <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bx-star"></i>
+                </div>
+                <p>$85.00</p>
+            </div>
+        </div>
+
+        <h2 class="title">Latest Product</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="./Images/hamper4.jpg">
+                <h4>Handmade Soap</h4>
+                <div class="rating">
+                     <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bx-star"></i>
+                </div>
+                <p>$85.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="./Images/hamper6.jpg">
+                <h4>Handmade Soap</h4>
+                <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bx-star"></i>
+                </div>
+                <p>$85.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="./Images/hamper7.jpg">
+                <h4>Handmade Soap</h4>
+                <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                </div>
+                <p>$85.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="./Images/hamper9.jpg">
+                <h4>Rakhi Exclusive</h4>
+                <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bx-star"></i>
+                </div>
+                <p>$85.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="./Images/hamper8.jpg">
+                <h4>Rakhi Exclusive</h4>
+                <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bx-star"></i>
+                </div>
+                <p>$85.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="./Images/hamper10.jpg">
+                <h4>Rakhi Exclusive</h4>
+                <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bx-star"></i>
+                </div>
+                <p>$85.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="./Images/hamper11.jpg">
+                <h4>Rakhi Exclusive</h4>
+                <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bx-star"></i>
+                </div>
+                <p>$85.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="./Images/hamper2.jpg">
+                <h4>Handmade Hamper</h4>
+                <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bx-star"></i>
+                </div>
+                <p>$85.00</p>
+            </div>
+            
+
+            
+        </div>
+    </div>
+
+
+    <!-- Testimonial -->
+        <div class="testimonial">
+            <div class="small_container">
+                <div class="row">
+                   <div class="col-3">
+                         <i class="bx bxs-quote-left"></i>
+                                <p>Lorem ipsum dolor sit amet consectetur 
+                                        adipisicing elit. Totam facilis eaque 
+                                        repudiandae quis a aliquid nostrum ipsa minus.
+                                        Illo, asperiores.
+                                </p>
+                            <div class="rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bx-star"></i>
+                            </div>
+                            <img src="Images/user1.jpg">
+                            <h3>hello Mansi</h3>
+                   </div> 
+                   <div class="col-3">
+                    <i class="bx bxs-quote-left"></i>
+                           <p>Lorem ipsum dolor sit amet consectetur 
+                                   adipisicing elit. Totam facilis eaque 
+                                   repudiandae quis a aliquid nostrum ipsa minus.
+                                   Illo, asperiores.
+                           </p>
+                       <div class="rating">
+                           <i class="bx bxs-star"></i>
+                           <i class="bx bxs-star"></i>
+                           <i class="bx bxs-star"></i>
+                           <i class="bx bxs-star"></i>
+                           <i class="bx bx-star"></i>
+                       </div>
+                       <img src="Images/user2.jpg">
+                       <h3>hello Rajal</h3>
+              </div> 
+              <div class="col-3">
+                <i class="bx bxs-quote-left"></i>
+                       <p>Lorem ipsum dolor sit amet consectetur 
+                               adipisicing elit. Totam facilis eaque 
+                               repudiandae quis a aliquid nostrum ipsa minus.
+                               Illo, asperiores.
+                       </p>
+                   <div class="rating">
+                       <i class="bx bxs-star"></i>
+                       <i class="bx bxs-star"></i>
+                       <i class="bx bxs-star"></i>
+                       <i class="bx bxs-star"></i>
+                       <i class="bx bx-star"></i>
+                   </div>
+                   <img src="Images/user3.jpg">
+                   <h3>hello Shaily</h3>
+          </div> 
+                </div>
+            </div>
+        </div>
+
+    <!-- Footer-->
+
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>Download App for android and ios mobile phone.</p>
+                         <div class="app-logo">
+                             <img src="Images/play_store.png">
+                             <img src="Images/app_store.png">
+                         </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <h1  style="font-family:'STIX Two Math', serif;color:rgb(58, 102, 117)">VASUVRAJ</h1> 
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                             Quia, aliquam ex autem minus velit optio.
+                        </p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follw Us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>YouTube</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">Copyright 2021 - VasuVraj</p>
+            </div>
+        </div>
+    
+    <!-- Js for ToggleMenu.-->
+
+    <script>
+       var menuItems=document.getElementById('menuItems');
+       menuItems.style.maxHeight="0px";
+       function menutoggle(){
+           if(menuItems.style.maxHeight=="0px")
+           {
+            menuItems.style.maxHeight="200px";
+           }
+           else
+           {
+            menuItems.style.maxHeight="0px";
+           }
+       }
+    </script>
+        
+</body>
+</html>
